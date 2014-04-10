@@ -17,7 +17,7 @@ module Liquid
       if markup =~ Syntax
         @name = $1.gsub(/["']/o, '').strip
       else
-        raise(SyntaxError.new(options[:locale].t("errors.syntax.block")), options[:line])
+        raise(SyntaxError.new(options[:locale].t("errors.syntax.inherited_block".freeze)))
       end
 
       set_full_name!(options)
