@@ -11,7 +11,7 @@ See the discussion with the Shopify team about it [here](https://github.com/Shop
 
 Add this line to your application's Gemfile, just after the one related to Liquid.
 
-    gem 'liquid-inheritance'
+    gem 'liquid-template-inheritance'
 
 And then execute:
 
@@ -19,7 +19,7 @@ And then execute:
 
 ## Contributing
 
-1. Fork it ( http://github.com/<my-github-username>/locomotivecms/liquid-inheritance )
+1. Fork it ( http://github.com/<my-github-username>/locomotivecms/liquid-template-inheritance )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
