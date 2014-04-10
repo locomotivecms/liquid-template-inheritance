@@ -8,6 +8,7 @@ module Liquid
         # we assume that the developers already included the keys concerning the template inheritance.
         locale_without_template_inheritance
       else
+        # memoization
         return @locale if @locale
 
         default = locale_without_template_inheritance
