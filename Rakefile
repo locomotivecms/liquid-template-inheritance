@@ -1,7 +1,7 @@
 require 'rake'
 require 'rake/testtask'
 
-require_relative "lib/liquid/template-inheritance/version"
+require_relative "lib/liquid/template_inheritance/version"
 
 task :default => 'test'
 
