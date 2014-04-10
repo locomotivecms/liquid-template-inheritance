@@ -5,7 +5,7 @@ Implementation of template inheritance, similar to what offers [Django](https://
 
 See the discussion with the Shopify team about it [here](https://github.com/Shopify/liquid/pull/336).
 
-**Important**. That's not a fork of the Liquid gem, it's rather a kind of add-on for Liquid. It requires a version of Liquid higher than the 2.6.1.
+**Important**. That's not a fork of the Liquid gem, it's rather a kind of add-on for Liquid. It requires a version of Liquid higher than the 3.0.0.
 
 ## Installation
 
