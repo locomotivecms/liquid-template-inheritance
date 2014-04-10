@@ -1,4 +1,8 @@
-require_relative 'lib/liquid/template_inheritance/version'
+# encoding: utf-8
+lib = File.expand_path('../lib/', __FILE__)
+$:.unshift lib unless $:.include?(lib)
+
+require "liquid/template_inheritance/version"
 
 Gem::Specification.new do |spec|
   spec.name          = 'liquid-template-inheritance'
@@ -19,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency 'rake', '~> 10.1'
   #spec.add_development_dependency 'liquid', '~> 2.6.1'
 
-  spec.required_ruby_version = '~> 1.9.3'
+  spec.required_ruby_version = '~> 2.0.0'
 end
