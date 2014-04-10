@@ -75,5 +75,5 @@ module Liquid
 
   end
 
-  Template.register_tag('extends', Template::Inheritance::Extends)
+  Template.register_tag('extends', TemplateInheritance::Extends)
 end
